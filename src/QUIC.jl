@@ -16,7 +16,6 @@ Basic usage of the function is `QUIC(S,λ)` where S is a positive semidefinite m
 Some options for the user include `tol` (default: 1e-4), `msg` to control output  (default 0, possible values are 0 through 4 with 4 being the most verbose),
 maximum number of iterations `maxIter` (default: 1000), and `Xinit` and `Winit` (`Winit` is the inverse of `Xinit`, please provide both if you want to specify 
 an initial guess). If `Xinit` and `Winit` are not specified, then the initial guess is the identity matrix, which gives a fast update for the first iteration. 
-but the code/algorithm is much more complicated. If S is very large, you will need to look into this new linear-time method.
 
 External links
 * [Hsieh, C.-J., Sustik, M. A., Dhillon, I. S. and Ravikumar, P. (2014) QUIC: quadratic approximation for sparse inverse covariance estimation. J. Mach. Learn. Res., 15, 2911– 2947.](https://jmlr.org/papers/volume15/hsieh14a/hsieh14a.pdf)
